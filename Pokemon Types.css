@@ -1,0 +1,201 @@
+body {
+    background-image: url(https://archives.bulbagarden.net/media/upload/5/59/Fuchsia_City_HGSS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial;
+    font-weight: bold;
+}
+.pokebox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 20px;
+    height: 125px;
+    margin-right: 40%;
+    margin-left: 40%;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+}
+.genButton {
+    width: 150px;
+    height: 35px;
+    background-color: #ff0000;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+.genButton[type=button]:hover {
+    background-color: #be0000
+}
+.centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-auto-rows: 85px 250px;
+    padding: 5px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    grid-gap: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255);
+    border: 5px transparent;
+    border-radius: 15px;
+    padding: 5px;
+    width: 92%;
+    font-size: 15px;
+    text-align: center;
+    overflow-y: auto;
+}
+.sprite {
+    width: 100px;
+    height: 100px;
+}
+.grid-item .sprite {
+    width: 65px;
+    height: 65px;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+li, ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.hide {
+    display: none;
+    visibility: hidden;
+}
+.show {
+    display: none;
+    visibility: visible;
+}
+.item {
+    width: 65px;
+    height: 25px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+.normal-type {
+    background-color: rgb(145, 154, 162);
+}
+.normal-type[type=button]:hover {
+    background-color: rgb(111, 120, 128);
+}
+.fire-type {
+    background-color: rgb(240, 128, 48);
+}
+.fire-type[type=button]:hover {
+    background-color: rgb(185, 93, 27)
+}
+.water-type {
+    background-color: rgb(54, 146, 220);
+}
+.water-type[type=button]:hover {
+    background-color: rgb(33, 109, 172);
+}
+.grass-type {
+    background-color: rgb(56, 191, 75);
+}
+.grass-type[type=button]:hover {
+    background-color: rgb(34, 146, 49);
+}
+.electric-type {
+    background-color: rgb(248, 208, 48);
+}
+.electric-type[type=button]:hover {
+    background-color: rgb(192, 159, 27);
+}
+.ice-type {
+    background-color: rgb(76, 209, 192);
+}
+.ice-type[type=button]:hover {
+    background-color: rgb(49, 165, 149);
+}
+.fighting-type {
+    background-color: rgb(224, 48, 106);
+}
+.fighting-type[type=button]:hover {
+    background-color: rgb(155, 25, 69);
+}
+.poison-type {
+    background-color: rgb(181, 103, 206);
+}
+.poison-type[type=button]:hover {
+    background-color: rgb(131, 69, 151);
+}
+.ground-type {
+    background-color: rgb(232, 114, 54);
+}
+.ground-type[type=button]:hover {
+    background-color: rgb(170, 78, 32);
+}
+.flying-type {
+    background-color: rgb(137, 170, 227);
+}
+.flying-type[type=button]:hover {
+    background-color: rgb(97, 126, 177);
+}
+.psychic-type {
+    background-color: rgb(255, 102, 117);
+}
+.psychic-type[type=button]:hover {
+    background-color: rgb(187, 65, 78);
+}
+.bug-type {
+    background-color: rgb(131, 195, 0);
+}
+.bug-type[type=button]:hover {
+    background-color: rgb(92, 138, 0);
+}
+.rock-type {
+    background-color: rgb(200, 182, 134);
+}
+.rock-type[type=button]:hover {
+    background-color: rgb(150, 134, 93);
+}
+.steel-type {
+    background-color: rgb(90, 142, 162);
+}
+.steel-type[type=button]:hover {
+    background-color: rgb(56, 94, 109);
+}
+.ghost-type {
+    background-color: rgb(76, 106, 178);
+}
+.ghost-type[type=button]:hover {
+    background-color: rgb(49, 72, 126);
+}
+.dark-type {
+    background-color: rgb(91, 84, 102);
+}
+.dark-type[type=button]:hover {
+    background-color: rgb(54, 49, 63);
+}
+.dragon-type {
+    background-color: rgb(0, 111, 201);
+}
+.dragon-type[type=button]:hover {
+    background-color: rgb(0, 79, 143);
+}
+.fairy-type {
+    background-color: rgb(251, 137, 235);
+}
+.fairy-type[type=button]:hover {
+    background-color: rgb(192, 95, 179);
+}
+.right-type {
+    color: rgb(0, 119, 0)
+}
+.wrong-type {
+    color: red;
+}
